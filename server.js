@@ -9,7 +9,7 @@ const PORT = 4000;
 app.use(cors());
 app.use(bodyparser.json());
 
-mongoose.connect('mongodb+srv://jayasree:1122334455cluster@cluster0.mp0y0.mongodb.net/',{
+mongoose.connect('mongodb+srv://leela:mongodbleela2@cluster0.tjile.mongodb.net/',{
 })
 .then(() => console.log('Connected to MongoDB'))
 .catch((err) => console.error('MongoDB connection error:', err));
